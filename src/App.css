@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap');
+
+body {
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app-header,
+.app-footer {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.family + .family {
+	margin-top: 8px;
+}
+
+.children {
+	border-left: 1px dotted #444;
+	padding-left: 40px;
+}
+
+.parent {
+	margin-bottom: 2px;
+}
+
+.person {
+	align-items: center;
+	display: flex;
+	padding: 2px;
+}
+
+.gender-icon {
+	height: 20px;
+	width: 20px;
+}
+
+.search-found {
+	outline: 3px solid fuchsia;
+}
