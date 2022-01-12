@@ -4,6 +4,10 @@ body {
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+button {
+	cursor: pointer;
+}
+
 .app-header,
 .app-footer {
 	align-items: center;
@@ -28,8 +32,15 @@ body {
 
 .person {
 	align-items: center;
+	background-color: transparent;
+	border: none;
 	display: flex;
-	padding: 2px;
+	padding: 4px;
+
+	&:focus,
+	&:hover {
+		background-color: #f0f0f0;
+	}
 }
 
 .gender-icon {
