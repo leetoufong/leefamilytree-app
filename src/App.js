@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {ReactComponent as MaleIcon} from './male.svg';
 import {ReactComponent as FemaleIcon} from './female.svg';
-import './App.css';
+import './App.scss';
 
 export default function App() {
 	const [data, setData] = useState([]);
